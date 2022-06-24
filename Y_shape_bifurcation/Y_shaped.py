@@ -101,8 +101,8 @@ if __name__ == "__main__":
                                X_residual_vessel2, 
                                X_residual_vessel3, 
                                T_residual, T_measurement, layers, bif_points)
-    model.train(1,1e-3)
-    model.train(2,1e-4)
+    model.train(90000,1e-3)
+    model.train(40000,1e-4)
             
     X_test_vessel1 = 0.1*np.ones((T_residual.shape[0],1))
     X_test_vessel2 = 0.176*np.ones((T_residual.shape[0],1))

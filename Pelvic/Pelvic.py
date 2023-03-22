@@ -95,7 +95,7 @@ if __name__ == "__main__":
     test_point = np.array([ upper_bound_vessel_1, 0.06, lower_bound_vessel_3, upper_bound_vessel_4, upper_bound_vessel_5,
        0.03, upper_bound_vessel_7])    
        
-    bif_points = [upper_bound_vessel_3, upper_bound_vessel_2, upper_bound_vessel_6]
+    bif_points = [upper_bound_vessel_3, upper_bound_vessel_6, upper_bound_vessel_2]
     
     X_initial_vessel1 = np.linspace(lower_bound_vessel_1,upper_bound_vessel_1,N_u)[:,None]
     X_initial_vessel2 = np.linspace(lower_bound_vessel_2,upper_bound_vessel_2,N_u)[:,None]
